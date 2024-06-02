@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
     <title>cars invetory</title>
 </head>
 
@@ -15,146 +14,75 @@
         <ul class="nav-links">
             <li><a href="index.html">עמוד בית</a></li>
             <li><a href="#cars">רכבים</a></li>
-            <li><a href="#motorbike">אופנועים</a></li>
-            <li><a href="#contact">יצירת קשר</a></li>
+            <li><a href="index.html">יצירת קשר</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
+    <!DOCTYPE html>
+    <html lang="en">
 
-    <section id="filter">
-        <button class="filter-btn" data-filter="all">הכל</button>
-        <button class="filter-btn" data-filter="car">רכבים</button>
-        <button class="filter-btn" data-filter="motorbike">אופנועים</button>
-    </section>
-    <section id="cars" class="car-listings">
-        <div class="item car" data-category="car">
-            <img src="Toyota-Yaris-2013-01.jpeg" alt="Car 1">
-            <div class="info">
-                <h3>טויטה יאריס 2013</h3>
-                <p>$20,000 <button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="kia rio.jpeg" alt="Car 2">
-            <div class="info">
-                <h3>קיה ריו 2021</h3>
-                <p>$25,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="kiasport.jpeg" alt="Car 3">
-            <div class="info">
-                <h3>2023 קיה ספורטאז</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="c300.jpeg" alt="Car 4">
-            <div class="info">
-                <h3>מרצדס 2020 c300</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="serise 4.jpeg" alt="Car 5">
-            <div class="info">
-                <h3>2021 במוו סדרה 4</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="model3.jpeg" alt="Car 6">
-            <div class="info">
-                <h3>טסלה מודל 3 2021</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="TMAX-560-Tech-MAX-6.jpeg" alt="moto 1">
-            <div class="info">
-                <h3>T-max 2021</h3>
-                <p>79,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="x adv.jpeg" alt="moto 2">
-            <div class="info">
-                <h3>X-adv 2020</h3>
-                <p>$44,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="xmax.jpeg" alt="moto 3">
-            <div class="info">
-                <h3>X-max 2020</h3>
-                <p>$35,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="r7.jpeg" alt="moto 4">
-            <div class="info">
-                <h3>R7 2023</h3>
-                <p>$28,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="z900.jpeg" alt="moto 5">
-            <div class="info">
-                <h3>Z900 2019</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="vespa.png" alt="moto 6">
-            <div class="info">
-                <h3>VESPA 2013</h3>
-                <p>$3,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="Toyota-Yaris-2013-01.jpeg" alt="Car 1">
-            <div class="info">
-                <h3>טויטה יאריס 2013</h3>
-                <p>$20,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="kia rio.jpeg" alt="Car 2">
-            <div class="info">
-                <h3>קיה ריו 2021</h3>
-                <p>$25,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="x adv.jpeg" alt="moto 2">
-            <div class="info">
-                <h3>X-adv 2020</h3>
-                <p>$44,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item car" data-category="car">
-            <img src="c300.jpeg" alt="Car 4">
-            <div class="info">
-                <h3>מרצדס 2020 c300</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-        <div class="item motorbike" data-category="motorbike">
-            <img src="z900.jpeg" alt="moto 5">
-            <div class="info">
-                <h3>Z900 2019</h3>
-                <p>$30,000<button class="buy-btn">לרכישה</button></p>
-            </div>
-        </div>
-    </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Shop</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-    <script src="script1.js"></script>
-    <footer>
-        <p>&copy; 2024 Nisan CarShop. All Rights Reserved.</p>
-    </footer>
-</body>
+    <body>
+        <main>
+            <section id="home">
+                <h1>ברוכים הבאים לניסן רכבים</h1>
+                <h4>כאן תמצאו מגוון רכבים ואופנועים </h4>
+                <button id="filterButton" class="btn">סינון</button>
+            </section>
 
-</html>
+            <section id="cars" class="car-listings">
+                <div class="car-container" id="carContainer">
+                    <!-- Car items will be populated here -->
+                </div>
+            </section>
+            <div id="filterModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>סינון</h2>
+                    <form id="filterForm">
+                        <label for="make">יצרן:</label>
+                        <select id="make" name="make">
+                            <option value="all">הכל</option>
+                            <option value="Toyota">טויוטה</option>
+                            <option value="Kia">קיה</option>
+                            <option value="BMW">במ.וו</option>
+                            <option value="MERCEDS">מרצדס</option>
+                            <option value="YAMAHA">יאממה</option>
+                            <option value="TESLA">טסלה</option>
+                            <option value="vaspa">ווספה</option>
+                            <option value="HONDA">הונדה</option>
+                            <option value="JEEP">ג'יפ</option>
+                        </select>
+                        <br>
+                        <label for="model">מודל:</label>
+                        <select id="model" name="model" disabled>
+                            <option value="all">הכל</option>
+                        </select>
+                        <br>
+                        <label for="year">שנה:</label>
+                        <select id="year" name="year" disabled>
+                            <option value="all">הכל</option>
+                        </select>
+                        <br>
+                        <button type="button" class="btn" id="applyFilters">בצע</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+
+        <script src="script1.js"></script>
+        <footer>
+            <p>&copy; 2024 Nisan CarShop. All Rights Reserved.</p>
+        </footer>
+    </body>
+
+    </html>
