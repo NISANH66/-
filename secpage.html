@@ -20,69 +20,60 @@
 </header>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <main>
+        <section>
+            <h1 id="firsth1">ברוכים הבאים לניסן רכבים</h1>
+            <h4>כאן תמצאו מגוון רכבים ואופנועים </h4>
+            <button id="filterButton" class="btn">סינון</button>
+        </section>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Car Shop</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-
-    <body>
-        <main>
-            <section id="home">
-                <h1>ברוכים הבאים לניסן רכבים</h1>
-                <h4>כאן תמצאו מגוון רכבים ואופנועים </h4>
-                <button id="filterButton" class="btn">סינון</button>
-            </section>
-
-            <section id="cars" class="car-listings">
-                <div class="car-container" id="carContainer">
-                    <!-- Car items will be populated here -->
-                </div>
-            </section>
-            <div id="filterModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h2>סינון</h2>
-                    <form id="filterForm">
-                        <label for="make">יצרן:</label>
-                        <select id="make" name="make">
-                            <option value="all">הכל</option>
-                            <option value="Toyota">טויוטה</option>
-                            <option value="Kia">קיה</option>
-                            <option value="BMW">במ.וו</option>
-                            <option value="MERCEDS">מרצדס</option>
-                            <option value="YAMAHA">יאממה</option>
-                            <option value="TESLA">טסלה</option>
-                            <option value="vaspa">ווספה</option>
-                            <option value="HONDA">הונדה</option>
-                            <option value="JEEP">ג'יפ</option>
-                        </select>
-                        <br>
-                        <label for="model">מודל:</label>
-                        <select id="model" name="model" disabled>
-                            <option value="all">הכל</option>
-                        </select>
-                        <br>
-                        <label for="year">שנה:</label>
-                        <select id="year" name="year" disabled>
-                            <option value="all">הכל</option>
-                        </select>
-                        <br>
-                        <button type="button" class="btn" id="applyFilters">בצע</button>
-                    </form>
-                </div>
+        <section id="cars" class="car-listings">
+            <div class="car-container" id="carContainer">
+                <!-- Car items will be populated here -->
             </div>
-        </main>
+        </section>
+
+        <div id="filterModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>סינון</h2>
+                <form id="filterForm">
+                    <label for="make">יצרן:</label>
+                    <select id="make" name="make">
+                        <option value="all">הכל</option>
+                        <option value="טויוטה">טויוטה</option>
+                        <option value="קיה">קיה</option>
+                        <option value="ב.מ.וו">במ.וו</option>
+                        <option value="מרצדס">מרצדס</option>
+                        <option value="יאממה">יאממה</option>
+                        <option value="טסלה">טסלה</option>
+                        <option value="פאגרו">פאגרו</option>
+                        <option value="הונדה">הונדה</option>
+                        <option value="ג'יפ">ג'יפ</option>
+                        <option value="מאזדה">מאזדה</option>
+                    </select>
+                    <br>
+                    <label for="model">מודל:</label>
+                    <select id="model" name="model" disabled>
+                        <option value="all">הכל</option>
+                    </select>
+                    <br>
+                    <label for="year">שנה:</label>
+                    <select id="year" name="year" disabled>
+                        <option value="all">הכל</option>
+                    </select>
+                    <br>
+                    <button type="button" class="btn" id="applyFilters">בצע</button>
+                </form>
+            </div>
+        </div>
+    </main>
 
 
-        <script src="script1.js"></script>
-        <footer>
-            <p>&copy; 2024 Nisan CarShop. All Rights Reserved.</p>
-        </footer>
-    </body>
+    <script src="script1.js"></script>
+    <footer>
+        <p>&copy; 2024 Nisan CarShop. All Rights Reserved.</p>
+    </footer>
+</body>
 
-    </html>
+</html>

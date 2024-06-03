@@ -1,18 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cars = [
-        { model: "טויטה יאריס", price: "$20,000", make: "Toyota", year: "2013", imageName: "Toyota-Yaris-2013-01.jpeg" },
-        { model: "קיה ריו ", price: "$25,000", make: "Kia", year: "2021", imageName: "kia rio.jpeg" },
-        { model: "במ.וו סדרה 4 ", price: "$30,000", make: "BMW", year: "2023", imageName: "serise 4.jpeg" },
-        { model: "C300 מרצדס", price: "$30,000", make: "MERCEDS", year: "2020", imageName: "c300.jpeg" },
-        { model: "T-max 560", price: "$30,000", make: "YAMAHA", year: "2021", imageName: "TMAX-560-Tech-MAX-6.jpeg" },
-        { model: "X-max350", price: "$30,000", make: "YAMAHA", year: "2020", imageName: "xmax.jpeg" },
-        { model: "מודל 3", price: "$30,000", make: "TESLA", year: "2021", imageName: "model3.jpeg" },
-        { model: "vaspa a350", price: "$30,000", make: "vaspa", year: "2013", imageName: "vespa.png" },
-        { model: "x-adv", price: "$30,000", make: "HONDA", year: "2020", imageName: "x adv.jpeg" },
-        { model: "R7", price: "$30,000", make: "YAMAHA", year: "2023", imageName: "r7.jpeg" },
-        { model: "wrangler", price: "300,000", make: "JEEP", year: "2023", imageName: "rubi.jpeg" },
-        { model: "gladiatur", price: "250,000", make: "JEEP", year: "2023", imageName: "gladi.jpeg" },
-    ];
+        { model: " יאריס", price: "₪20,000", make: "טויוטה", year: "2013", imageName: "Toyota-Yaris-2013-01.jpeg" },
+        { model: " ריו ", price: "₪75,000", make: "קיה", year: "2021", imageName: "kia rio.jpeg" },
+        { model: " סדרה 4 ", price: "₪370,000", make: "ב.מ.וו", year: "2023", imageName: "serise 4.jpeg" },
+        { model: "C300 ", price: "₪450,000", make: "מרצדס", year: "2020", imageName: "c300.jpeg" },
+        { model: "T-max 560", price: "₪80,000", make: "יאממה", year: "2021", imageName: "TMAX-560-Tech-MAX-6.jpeg" },
+        { model: "X-max350", price: "₪50,000", make: "יאממה", year: "2020", imageName: "xmax.jpeg" },
+        { model: "מודל 3", price: "₪200,000", make: "טסלה", year: "2021", imageName: "model3.jpeg" },
+        { model: "vaspa a350", price: "₪36,000", make: "פאגרו", year: "2013", imageName: "vespa.png" },
+        { model: "x-adv", price: "₪70,000", make: "הונדה", year: "2020", imageName: "x adv.jpeg" },
+        { model: "R7", price: "₪65,000", make: "יאממה", year: "2023", imageName: "r7.jpeg" },
+        { model: "wrangler", price: "₪300,000", make: "ג'יפ", year: "2023", imageName: "rubi.jpeg" },
+        { model: "gladiatur", price: "₪250,000", make: "ג'יפ", year: "2023", imageName: "gladi.jpeg" },
+        { model: "מאזדה 3", price: "₪150,000", make: "מאזדה", year: "2023", imageName: "mazda3.jpeg" },
+        { model: "מאזדה cx5", price: "₪190,000", make: "מאזדה", year: "2023", imageName: "cx5.webp" },
+    ]
 
     const carContainer = document.getElementById('carContainer');
     const filterButton = document.getElementById('filterButton');
@@ -33,7 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="car-info">
                     <h3>${car.make} ${car.model} ${car.year}</h3>
                     <p>${car.price}</p>
-                    <button class="btn buy-btn">Buy</button>
+                    <br>
+                    <a href="https://www.5555.co.il/?utm_source=Google&utm_medium=Search&utm_campaign=KLG-Mimun-Yashir_AWO-BrandExact_Leads_BOF_m3001&utm_term=Exact_Mimun-Yashir-HEB&utm_content=Brand_Exact-%D7%9E%D7%99%D7%9E%D7%95%D7%9F%20%D7%99%D7%A9%D7%99%D7%A8-680751560395&gclid=Cj0KCQjw0_WyBhDMARIsAL1Vz8sL_OaXNFJhkmo-26-bnMQ1qRI3QP_FTjUA7KSyG3vkrKpaLoOUv9MaAoWDEALw_wcB" target="_blank" class="btn buy-btn">לרכישה</a>
                 </div>
             `;
             carContainer.appendChild(carCard);
